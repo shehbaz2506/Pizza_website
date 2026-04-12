@@ -61,11 +61,13 @@ function Header(){
 }
 
 function Menu(){
-
+  return <div>
+    <h2>Our Menu</h2>
+  </div>
 }
 
 function Footer(){
-    return React.createElement('footer', null, "We're currently open!")
+    return <footer>{new Date().toLocaleTimeString()}We're currently open</footer>
 }
 
 function Pizza(){
