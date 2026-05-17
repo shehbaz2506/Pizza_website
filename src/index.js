@@ -77,7 +77,7 @@ function Menu() {
       </ul>
 
       {/* <Pizza
-        name="Pizza Spinaci"
+        name="Pizza Spinaci",
         ingredients="Tomato, mozarella, spinach, and ricotta cheese"
         photoName="pizzas/spinaci .jpg"
         price={12}
@@ -146,7 +146,7 @@ function Footer() {
 
   return (
     <footer className="footer">
-      {new Date().toLocaleTimeString()}.We're currently open
+      {}
     </footer>
   );
 }
